@@ -1,0 +1,16 @@
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\bin\Debug\net5.0\ProjectTwo.exe
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\bin\Debug\net5.0\ProjectTwo.deps.json
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\bin\Debug\net5.0\ProjectTwo.runtimeconfig.json
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\bin\Debug\net5.0\ProjectTwo.runtimeconfig.dev.json
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\bin\Debug\net5.0\ProjectTwo.dll
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\bin\Debug\net5.0\ref\ProjectTwo.dll
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\bin\Debug\net5.0\ProjectTwo.pdb
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\obj\Debug\net5.0\ProjectTwo.csproj.AssemblyReference.cache
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\obj\Debug\net5.0\ProjectTwo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\obj\Debug\net5.0\ProjectTwo.AssemblyInfoInputs.cache
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\obj\Debug\net5.0\ProjectTwo.AssemblyInfo.cs
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\obj\Debug\net5.0\ProjectTwo.csproj.CoreCompileInputs.cache
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\obj\Debug\net5.0\ProjectTwo.dll
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\obj\Debug\net5.0\ref\ProjectTwo.dll
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\obj\Debug\net5.0\ProjectTwo.pdb
+C:\Github\Personal-CSharp-Projects\ProjectTwo\ProjectTwo\obj\Debug\net5.0\ProjectTwo.genruntimeconfig.cache
