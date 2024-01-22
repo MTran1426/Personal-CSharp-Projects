@@ -189,7 +189,35 @@ namespace ProjectTwo
             //Console.WriteLine("The second letter of " + word + " is " + word[1]);
             //Console.WriteLine("The index of the letter t is " + word.IndexOf("t"));
 
-
+            //Switch
+            Console.WriteLine("Please input the first number value: ");
+            string inputValueOne = Console.ReadLine();
+            int valueOne = int.Parse(inputValueOne);
+            Console.WriteLine("Please input the second number value: ");
+            string inputValueTwo = Console.ReadLine();
+            int valueTwo = int.Parse(inputValueTwo);
+            Console.WriteLine("Please input an expression: ");
+            Console.WriteLine("1. Addition");
+            Console.WriteLine("2. Subtraction");
+            Console.WriteLine("3. Multiplication");
+            Console.WriteLine("4. Division");
+            string expressionInput = Console.ReadLine();
+            int expressionValue = int.Parse(expressionInput);
+            switch (expressionValue)
+            {
+                case 1:
+                    Console.WriteLine(valueOne + " + " + valueTwo + " = " + (valueOne + valueTwo));
+                    break;
+                case 2:
+                    Console.WriteLine(valueOne + " - " + valueTwo + " = " + (valueOne - valueTwo));
+                    break;
+                case 3:
+                    Console.WriteLine(valueOne + " * " + valueTwo + " = " + (valueOne * valueTwo));
+                    break;
+                case 4:
+                    Console.WriteLine(valueOne + " / " + valueTwo + " = " + (valueOne / valueTwo));
+                    break;
+            }
 
         }//void main
     }//class program
