@@ -190,34 +190,85 @@ namespace ProjectTwo
             //Console.WriteLine("The index of the letter t is " + word.IndexOf("t"));
 
             //Switch
-            Console.WriteLine("Please input the first number value: ");
-            string inputValueOne = Console.ReadLine();
-            int valueOne = int.Parse(inputValueOne);
-            Console.WriteLine("Please input the second number value: ");
-            string inputValueTwo = Console.ReadLine();
-            int valueTwo = int.Parse(inputValueTwo);
-            Console.WriteLine("Please input an expression: ");
-            Console.WriteLine("1. Addition");
-            Console.WriteLine("2. Subtraction");
-            Console.WriteLine("3. Multiplication");
-            Console.WriteLine("4. Division");
-            string expressionInput = Console.ReadLine();
-            int expressionValue = int.Parse(expressionInput);
-            switch (expressionValue)
-            {
-                case 1:
-                    Console.WriteLine(valueOne + " + " + valueTwo + " = " + (valueOne + valueTwo));
-                    break;
-                case 2:
-                    Console.WriteLine(valueOne + " - " + valueTwo + " = " + (valueOne - valueTwo));
-                    break;
-                case 3:
-                    Console.WriteLine(valueOne + " * " + valueTwo + " = " + (valueOne * valueTwo));
-                    break;
-                case 4:
-                    Console.WriteLine(valueOne + " / " + valueTwo + " = " + (valueOne / valueTwo));
-                    break;
-            }
+            //Console.WriteLine("Please input the first number value: ");
+            //string inputValueOne = Console.ReadLine();
+            //int valueOne = int.Parse(inputValueOne);
+            //Console.WriteLine("Please input the second number value: ");
+            //string inputValueTwo = Console.ReadLine();
+            //int valueTwo = int.Parse(inputValueTwo);
+            //Console.WriteLine("Please input an expression: ");
+            //Console.WriteLine("1. Addition");
+            //Console.WriteLine("2. Subtraction");
+            //Console.WriteLine("3. Multiplication");
+            //Console.WriteLine("4. Division");
+            //string expressionInput = Console.ReadLine();
+            //int expressionValue = int.Parse(expressionInput);
+            //switch (expressionValue)
+            //{
+            //    case 1:
+            //        Console.WriteLine(valueOne + " + " + valueTwo + " = " + (valueOne + valueTwo));
+            //        break;
+            //    case 2:
+            //        Console.WriteLine(valueOne + " - " + valueTwo + " = " + (valueOne - valueTwo));
+            //        break;
+            //    case 3:
+            //        Console.WriteLine(valueOne + " * " + valueTwo + " = " + (valueOne * valueTwo));
+            //        break;
+            //    case 4:
+            //        Console.WriteLine(valueOne + " / " + valueTwo + " = " + (valueOne / valueTwo));
+            //        break;
+            //}
+
+            //While Loop
+            //int count = 0;
+            //while (count <= 5) 
+            //{
+            //    Console.WriteLine(count);
+            //    count++;
+            //}
+
+            //Do While Loop
+            //int count = 0;
+            //do
+            //{
+            //    Console.WriteLine(count);
+            //    count++;
+            //}
+            //while (count <= 5);
+
+            //For Loop
+            //for (int count = 0; count <= 10; count++) 
+            //{
+            //    Console.WriteLine(count);
+            //}
+
+            //Nested For Loops
+            //for (int count = 0; count <= 2; count++)
+            //{
+            //    Console.WriteLine(count);
+            //    for (int innerCount = 0; innerCount <= 3; innerCount++)
+            //    {
+            //        Console.WriteLine(innerCount);
+            //    }
+            //}
+
+            //Foreach Loop
+            //string[] items = {"Sword", "Sheild", "Potion", "Pickaxe" };
+            //foreach (string holdingItem in items)
+            //{
+            //    Console.WriteLine("The player is currently holding a " + holdingItem + ".");
+            //}
+
+            //Loop Break
+            //string[] items = { "Sword", "Sheild", "Potion", "Pickaxe" };
+            //foreach (string holdingItem in items)
+            //{
+            //    if (holdingItem == "Potion")
+            //    {
+            //        break;
+            //    }
+            //    Console.WriteLine("The player is currently holding a " + holdingItem + ".");
+            //}
 
         }//void main
     }//class program
