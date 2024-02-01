@@ -270,6 +270,25 @@ namespace ProjectTwo
             //    Console.WriteLine("The player is currently holding a " + holdingItem + ".");
             //}
 
+            //Arrays
+            string[] items = { "Iron Sword", "Iron Pickaxe", "Iron Shovel", "Iron Axe", "Steak", "Crafting Table" };
+            //items[2] = "Diamond Shovel"; //Acess to specific element in array
+            Console.WriteLine(items[2]);
+            Console.WriteLine(items.Length); //Shows the array length
+            //items = new string[] { "Diamond Sword" }; //Updates an existing array with the "new" keyword
+            //Console.WriteLine(items[0]);
+            for (int count = 0; count < items.Length; count++)
+            {
+                Console.WriteLine(items[count]);
+            }//Loops through the array
+
+            foreach (string count in items)
+            {
+                Console.WriteLine(count);
+            }//Foreach loop that does the same thing
+
+
+
         }//void main
     }//class program
 }//namespace
