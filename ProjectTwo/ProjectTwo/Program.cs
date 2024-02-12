@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq; //Other useful array methods such as min, max and sum can be applied using system.linq
 
 namespace ProjectTwo
 {
@@ -271,23 +272,28 @@ namespace ProjectTwo
             //}
 
             //Arrays
-            string[] items = { "Iron Sword", "Iron Pickaxe", "Iron Shovel", "Iron Axe", "Steak", "Crafting Table" };
-            //items[2] = "Diamond Shovel"; //Acess to specific element in array
-            Console.WriteLine(items[2]);
-            Console.WriteLine(items.Length); //Shows the array length
-            //items = new string[] { "Diamond Sword" }; //Updates an existing array with the "new" keyword
-            //Console.WriteLine(items[0]);
-            for (int count = 0; count < items.Length; count++)
-            {
-                Console.WriteLine(items[count]);
-            }//Loops through the array
+            //string[] items = { "Iron Sword", "Iron Pickaxe", "Iron Shovel", "Iron Axe", "Steak", "Crafting Table" };
+            ////items[2] = "Diamond Shovel"; //Acess to specific element in array
+            //Console.WriteLine(items[2]);
+            //Console.WriteLine(items.Length); //Shows the array length
+            ////items = new string[] { "Diamond Sword" }; //Updates an existing array with the "new" keyword
+            ////Console.WriteLine(items[0]);
+            //Array.Sort(items);//Sorts through the array alphabetically (or in ascending order if the elements are numerical)
+            //for (int count = 0; count < items.Length; count++)
+            //{
+            //    Console.WriteLine(items[count]);
+            //}//Loops through the array
 
-            foreach (string count in items)
-            {
-                Console.WriteLine(count);
-            }//Foreach loop that does the same thing
+            //foreach (string count in items)
+            //{
+            //    Console.WriteLine(count);
+            //}//Foreach loop that does the same thing
 
-
+            //Multi-dimensional Arrays
+            //int[,] numbers = { { 1,2,3 }, {4,5,6} };
+            //Console.WriteLine(numbers[0,0]);//this accesses the first element of the first array inside the array "numbers"
+            //Console.WriteLine(numbers[1,0]);//this accesses the first element of the second array inside the array "numbers"
+            
 
         }//void main
     }//class program
