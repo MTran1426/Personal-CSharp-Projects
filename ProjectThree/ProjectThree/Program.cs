@@ -73,5 +73,18 @@ namespace ProjectThree
         //    return x + y;
         //}
 
+        //Calling the objects from a class
+        
+
     }//class program
+
+    //Creating a class
+    public class Inventory
+    {
+        //Objects
+        string[] items = {"Sword","Pickaxe","Cooked Beef","Torch"};
+
+
+    }//class Inventory
+
 }//namespace ProjectThree
