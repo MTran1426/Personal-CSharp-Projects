@@ -37,6 +37,25 @@ namespace ProjectThree
             //Console.WriteLine("The integer answer is: " + intAnswer);
             //Console.WriteLine("The double answer is: "+ doubleAnswer);
 
+            //Calling the objects from a class
+            //Inventory myInventory = new Inventory();//Create a new instance of the class
+            //foreach (string item in myInventory.items)//Call each element from the array in the Inventory class 
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //Calling multiple objects from one class
+            //Chest myChest = new Chest();//Chest is a class created separately in the same folder as the project
+            //foreach (string chestItem in myChest.chestItems)
+            //{
+            //    Console.WriteLine(chestItem);
+            //}
+            //Chest myObsidianChest = new Chest();
+            //foreach (string obsidianChestItem in myObsidianChest.chestItems)
+            //{
+            //    Console.WriteLine(obsidianChestItem);
+            //}
+
         }//void main
 
         //Basic Method
@@ -72,19 +91,14 @@ namespace ProjectThree
         //{
         //    return x + y;
         //}
-
-        //Calling the objects from a class
-        
-
     }//class program
 
     //Creating a class
-    public class Inventory
-    {
-        //Objects
-        string[] items = {"Sword","Pickaxe","Cooked Beef","Torch"};
+    //public class Inventory
+    //{
+    //    //Objects
+    //    public string[] items = {"Sword","Pickaxe","Cooked Beef","Torch"};
 
-
-    }//class Inventory
+    //}//class Inventory
 
 }//namespace ProjectThree
