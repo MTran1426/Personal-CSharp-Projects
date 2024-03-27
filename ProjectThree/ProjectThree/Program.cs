@@ -101,4 +101,8 @@ namespace ProjectThree
 
     //}//class Inventory
 
+    //Creating a class with fields and methods
+
+
+
 }//namespace ProjectThree
