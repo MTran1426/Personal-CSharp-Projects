@@ -56,6 +56,8 @@ namespace ProjectThree
             //    Console.WriteLine(obsidianChestItem);
             //}
 
+
+
         }//void main
 
         //Basic Method
@@ -91,6 +93,7 @@ namespace ProjectThree
         //{
         //    return x + y;
         //}
+        
     }//class program
 
     //Creating a class
@@ -102,6 +105,38 @@ namespace ProjectThree
     //}//class Inventory
 
     //Creating a class with fields and methods
+    public class SortingChest
+    {
+        string[] importantItems;
+        int[] itemAmount;
+
+        public void dataOutput(string[] importantItems, int[] itemAmount)
+        {
+            foreach (string item in importantItems)
+            {
+                Console.WriteLine(item);
+            }
+
+            foreach (int value in itemAmount)
+            {
+                Console.WriteLine(value);
+            }
+
+        }//method
+
+        public void Main(string[] args)
+        {
+            SortingChest sortingChest = new SortingChest();
+            string[] itemArray = { "Diamond", "Iron Ingot", "Lapis Lazuli" };
+            sortingChest.importantItems = itemArray;
+            int[] valueArray = { 5, 20, 7 };
+            sortingChest.itemAmount = valueArray;
+
+            sortingChest.dataOutput(itemArray, valueArray);
+           
+        }
+
+    }//class SortingChest
 
 
 
