@@ -56,8 +56,12 @@ namespace ProjectThree
             //    Console.WriteLine(obsidianChestItem);
             //}
 
-            SortingChest sortingChest = new SortingChest();
-            sortingChest.dataOutput(sortingChest.importantItems, sortingChest.itemAmount);
+            //SortingChest sortingChest = new SortingChest();
+            //sortingChest.dataOutput(sortingChest.importantItems, sortingChest.itemAmount);
+
+            //Calling a class with a constructor
+            //Weapons weapons = new Weapons();
+            //Console.WriteLine(weapons.weaponType);
 
         }//void main
 
@@ -104,8 +108,6 @@ namespace ProjectThree
     //    public string[] items = {"Sword","Pickaxe","Cooked Beef","Torch"};
 
     //}//class Inventory
-
-    
 
 
 
