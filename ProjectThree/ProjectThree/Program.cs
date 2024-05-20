@@ -63,6 +63,11 @@ namespace ProjectThree
             //Weapons weapons = new Weapons();
             //Console.WriteLine(weapons.weaponType);
 
+            //Block block = new Block();
+            //block.Name = "Dirt Block";
+            //block.Type = "Common";
+            //Console.WriteLine(block.Name + block.Type);
+
         }//void main
 
         //Basic Method
