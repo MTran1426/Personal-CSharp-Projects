@@ -1,4 +1,6 @@
 ﻿using System;
+//For reading and writing files
+using System.IO;
 
 namespace ProjectThree
 {
@@ -6,6 +8,14 @@ namespace ProjectThree
     {
         static void Main(string[] args)
         {
+            //Reading and writing files
+            string writeText = "Games are cool.";
+            File.WriteAllText("filename.txt",writeText);
+
+            string readText = File.ReadAllText("filename.txt");
+            Console.WriteLine(readText);
+
+
             //Test Method
             //testMethod();
 
@@ -68,6 +78,18 @@ namespace ProjectThree
             //block.Type = "Common";
             //Console.WriteLine(block.Name + block.Type);
 
+            //Mod mod = new Mod();
+            //mod.gameBoot();
+            //Console.WriteLine("Modpack selected is: "+ mod.modName);
+
+            //Mobs mob = new Mobs();
+            //Mobs pig = new Pig();
+            //Mobs cow = new Cow();
+
+            //mob.MobSound();
+            //pig.MobSound();
+            //cow.MobSound();
+
         }//void main
 
         //Basic Method
@@ -114,6 +136,35 @@ namespace ProjectThree
 
     //}//class Inventory
 
+    //Inheritance class: Mod is the child, Modpacks is the parent
+    //class Mod : ModPacks
+    //{
+    //    public string modName = "Dawncraft";
+    //}
+    
+    //Overriding base method with virtual and override
+    //class Mobs
+    //{
+    //    public virtual void MobSound()
+    //    {
+    //        Console.WriteLine("Mobs make a sound.");
+    //    }
+    //}
 
+    //class Pig : Mobs 
+    //{
+    //    public override void MobSound()
+    //    {
+    //        Console.WriteLine("The pig goes oink.");
+    //    }
+    //}
+
+    //class Cow : Mobs
+    //{
+    //    public override void MobSound()
+    //    {
+    //        Console.WriteLine("The cow goes moo.");
+    //    }
+    //}
 
 }//namespace ProjectThree
