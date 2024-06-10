@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bo+nkLTcGE4=",
+  "success": true,
+  "projectFilePath": "C:\\Github\\Personal-CSharp-Projects\\ProjectFour\\ProjectFour\\ProjectFour.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bobth\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
