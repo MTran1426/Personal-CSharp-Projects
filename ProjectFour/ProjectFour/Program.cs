@@ -11,6 +11,8 @@ namespace ProjectFour
             bool powerOn = true;
             string userInput;
             string playerInput;
+            bool validInput;
+            int menuOption = 0;
 
 
             while (powerOn == true)
@@ -20,8 +22,16 @@ namespace ProjectFour
                 Console.WriteLine("1. Play music");
                 Console.WriteLine("2. Exit");
                 userInput = Console.ReadLine();
+                validInput = int.TryParse(userInput, out menuOption);
 
-                int menuOption = int.Parse(userInput);
+                if (validInput == true && menuOption < 3)
+                {
+                   menuOption = int.Parse(userInput);
+                }
+                else
+                {
+                    Console.WriteLine("Please enter a valid menu option.");
+                }
 
                 switch (menuOption)
                 {
@@ -30,18 +40,24 @@ namespace ProjectFour
                         Console.WriteLine("Press P to play");
                         Console.WriteLine("Press S to stop");
                         playerInput = Console.ReadLine();
-
                         SoundPlayer musicPlayer = new SoundPlayer();
-                        if (playerInput == "p")
-                        {
-                            musicPlayer.SoundLocation = "C:\\Github\\Personal-CSharp-Projects\\ProjectFour\\ProjectFour\\ThenRise.wav";
-                            musicPlayer.Play();
-                        }
-                        else if (playerInput == "s")
-                        {
-                            musicPlayer.Stop();
-                        }
 
+                        if (playerInput == "p" || playerInput == "s")
+                        {
+                            if (playerInput == "p")
+                            {
+                                musicPlayer.SoundLocation = "C:\\Github\\Personal-CSharp-Projects\\ProjectFour\\ProjectFour\\ThenRise.wav";
+                                musicPlayer.Play();
+                            }
+                            else if (playerInput == "s")
+                            {
+                                musicPlayer.Stop();
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("Please enter a valid menu option.");
+                        }
                         break;
 
                     case 2:
